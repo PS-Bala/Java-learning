@@ -18,7 +18,7 @@ public class FirstTask {
         int value = Integer.parseInt(valString);
         System.out.print(Prime.isPrime(value) ? "Prime" : "Not Prime");
     }
-    public static  void  automaticTypeConversion() {
+    public static void automaticTypeConversion() {
         int i = 100;
         // automatic type conversion
         long l = i;
@@ -28,5 +28,16 @@ public class FirstTask {
         System.out.println("Long value "+l);
         System.out.println("Float value "+f);
     }
-
+    public static void explicitTypeConversion(){
+        double d = 435.04;
+        //explicit type casting
+        long l = (long)d;
+        //explicit type casting
+        int i = (int)l;
+        System.out.println("Double value "+d);
+        //fractional part lost
+        System.out.println("Long value "+l);
+        //fractional part lost
+        System.out.println("Int value "+i);
+    }
 }

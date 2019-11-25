@@ -5,8 +5,8 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-
 //        FirstTask.controlStatements();
-        FirstTask.automaticTypeConversion();
+//        FirstTask.automaticTypeConversion();
+        FirstTask.explicitTypeConversion();
     }
 }
