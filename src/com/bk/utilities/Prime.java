@@ -1,4 +1,4 @@
-package MathFunction;
+package com.bk.utilities;
 
 public class Prime {
     public static boolean isPrime(final long number) {
