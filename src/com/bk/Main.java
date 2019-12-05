@@ -18,10 +18,19 @@ public class Main {
         //        System.out.print("Maximum value of \"10, 45, 35, 89, 43, 21\" array is : ");
         //        System.out.println(maxValue);
      //       Add two multi dimension array
-                int[][] firstMatrix = {{1, 2, 3}, {4, 5, 6}};
-                int[][] secondMatrix = {{0, 2, 1}, {-1, 0, -3}};
-                Matrix matrix = new Matrix(firstMatrix, secondMatrix);
-                int[][] output = matrix.addTwoMatrix();
-                matrix.printMatrix(output);
+//                int[][] firstMatrix = {{1, 2, 3}, {4, 5, 6}};
+//                int[][] secondMatrix = {{0, 2, 1}, {-1, 0, -3}};
+//                Matrix matrix = new Matrix(firstMatrix, secondMatrix);
+//                int[][] output = matrix.addTwoMatrix();
+//                matrix.printMatrix(output);
+
+        //String concept
+        String s1 = "Welcome";
+        String s2 = "Welcome";
+        s2= s2.replace('W', 'L');
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s1);
+
     }
 }
