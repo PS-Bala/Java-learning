@@ -1,23 +1,36 @@
 package com.inheritance;
 
-public abstract class Human {
+public class Human {
     String name;
     int age;
     String gender;
 
     Human() {
-
     }
+
     Human(String name, int age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
-    public void walk() {
-        System.out.println("walking..");
+    protected void displayDetails() {
+        System.out.println("Name : " + name);
+        System.out.println("Age : " + age);
+        System.out.println("Gender : " + gender);
     }
-    public void read() {
-        System.out.println("reading..");
+    void walk() {
+        System.out.println("Human walking..");
     }
-    public abstract void eat();
+
+    //Not able to access outside the Human class, as this is private
+    private void read() {
+        System.out.println("Human reading..");
+    }
+    public void eat() {
+        System.out.println("Human eating..");
+    }
+
+    void run(String message) {
+        System.out.println(message);
+    }
 }

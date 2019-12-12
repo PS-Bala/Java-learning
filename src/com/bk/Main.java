@@ -6,7 +6,8 @@ import com.bk.tasks.SecondTask;
 
 import java.io.IOException;
 
-public class Main {
+public class
+Main {
     public static void main(String[] args) throws IOException {
 //        First task
     //        FirstTask.controlStatements();
