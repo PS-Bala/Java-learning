@@ -13,7 +13,8 @@ Main {
     //        FirstTask.controlStatements();
     //        FirstTask.automaticTypeConversion();
     //        FirstTask.explicitTypeConversion();
-//        Second task
+
+//        Second task - Array
     //        Find MAX value of the array
         //        int maxValue = SecondTask.findMaxValueInArray(new int[]{10, 45, 35, 89, 43, 21});
         //        System.out.print("Maximum value of \"10, 45, 35, 89, 43, 21\" array is : ");
